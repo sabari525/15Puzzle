@@ -8,7 +8,6 @@ class Main{
         // n = sc.nextInt();
         Puzzle p =new Puzzle(3);
         boolean b = true;
-        // p.reverseCol(n/2);
         do { 
             p.display();
             System.out.println("Choose Move direction:\n Up => W \n Right => D \n Left ->A\n Down => S\n Close => X");
@@ -47,8 +46,6 @@ class Main{
                     break;
             }
         } while (b);
-        // Puzzle p = new Puzzle(n);
-        // p.display();
 
     }
 }
